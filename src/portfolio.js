@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Neel Shah",
+  title: "Hi Everyone, Neel here!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate AI/ML enthusiast 🧠 with a strong foundation in Python, NLP, and Deep Learning along with knowledge of Full Stack development using Angular, Reactjs, etc , driven by a love for building intelligent systems and pushing the boundaries of technology through innovative projects and research."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1dwEMdyU0aGVcFMmzovXPsIYwOjIurir9/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Neel-Shah-29",
+  linkedin: "https://www.linkedin.com/in/neel-shah-209997212/",
+  gmail: "neelshah29042002@gmail.com",
+  gitlab: "https://gitlab.com/neelshah29042002",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +46,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A COMBO OF CRAZY MACHINE LEARNING ENGINEER WHO EXPLORES ALL THE PROBLEMS FROM DEEP LEARNING TO NLP SPACE AND FULL STACK DEVELOPER WHO IS CONTINUOUSLY LEARNING NEW TECHNOLOGIES !",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly optimised solutions to real life problems, rather it be linguistic problems, model optimization problems or development problems"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    emoji("⚡ Using Machine learning and generative AI to develop solutions in various datathons, do extensive research and try new solutions"),
+    emoji("⚡ Progressive Web Applications using various reactive components and latest development tools."),
+    emoji("⚡ Integration of third party services such as Firebase and AWS."
     )
   ],
 
@@ -64,6 +61,46 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      "skillName": "Python",
+      "fontAwesomeClassname": "fab fa-python"
+    },
+    {
+      "skillName": "C++",
+      "fontAwesomeClassname": "fas fa-code"
+    },
+    {
+      "skillName": "Java",
+      "fontAwesomeClassname": "fab fa-java"
+    },
+    {
+      "skillName": "NumPy",
+      "fontAwesomeClassname": "fas fa-square-root-alt"
+    },
+    {
+      "skillName": "Matplotlib",
+      "fontAwesomeClassname": "fas fa-chart-line"
+    },
+    {
+      "skillName": "Pandas",
+      "fontAwesomeClassname": "fas fa-database"
+    },
+    {
+      "skillName": "TensorFlow",
+      "fontAwesomeClassname": "fas fa-brain"
+    },
+    {
+      "skillName": "PyTorch",
+      "fontAwesomeClassname": "fas fa-brain"
+    },
+    {
+      "skillName": "Keras",
+      "fontAwesomeClassname": "fas fa-brain"
+    },
+    {
+      "skillName": "GCP",
+      "fontAwesomeClassname": "fab fa-google"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -89,7 +126,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
+      skillName: "Angular",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
@@ -105,12 +142,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "Django",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Flask",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Mongo-DB",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "docker",
@@ -126,24 +167,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Veermata Jijabai Technological Institute(VJTI), Mumbai",
+      logo: require("./assets/images/VjtiLogo.png"),
+      subHeader: "Bachelor of Technology in Computer Science",
+      duration: "June 2020 - June 2024",
+      desc: "Completed by Bachelor of Technology and participated in the research under machine learning, NLP and Explainable AI.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Done several research projects independently and in a group resulting in several wins in hackathons and datathons.",
+        "Mentored a team of juniors under society of Robotics and Automation.",
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
@@ -153,15 +186,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Machine Learning", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
+    
     {
-      Stack: "Backend",
+      Stack: "Natural Language Processing", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Frontend/Backend",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Testing and Automation",
       progressPercentage: "60%"
     }
   ],
@@ -174,29 +212,49 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer",
+      company: "Bank Of New York",
+      companylogo: require("./assets/images/bnyLogo.jpeg"),
+      date: "Aug 2024 – Present",
+      desc: "Building interesting technological solutions for bank.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Working with Mellon IT distribution services team to enhance the Distribution Request Tracker windows application to Angular.",
+        "Working with Private Site team to resolve the vulnerabilities faced by customers on compliance site."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Summer@EPFL Research Intern",
+      company: "EPFL",
+      companylogo: require("./assets/images/epflLogo.jpeg"),
+      date: "May 2024 – Present",
+      desc: "Selected among 75 fellows through Summer@EPFL program with acceptance rate of 1.5%",
+      descBullets: [
+        "1. Working on Aiflows: https://github.com/epfl-dlab/aiflows. Specifically implemented code for running flows on your own local server.",
+        "2. Research Question: Would doing reward conditioning/critique generation before the model response improve the training results?",
+        "3. Will competitive programming questions benefit from reward conditioning before training? Can we use the critique as the feedback for code debug flow?"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Machine Learning Intern",
+      company: "Gloroots",
+      companylogo: require("./assets/images/glorootsLogo.png"),
+      date: "Jan 2024 – Jul 2024",
+      desc: "",
+      descBullets: [
+      "Develop and refine components of job and resume parsers using LLMs and NLP techniques. Develop recommendation algorithms/engines to find ideal jobs for candidates & vice versa.",
+      "Develop production APIs to deploy your AI/ML models in Python (Flask/Django/FastAPI). Participate in the full software development life cycle, from design to deployment."
+      ]
+    },
+    {
+      role: "Open Source Developer",
+      company: "CERN",
+      companylogo: require("./assets/images/CERNlogo.png"),
+      date: "May 2022 – Oct 2023",
+      desc: "Selected as google summer of code contributer",
+      descBullets: [
+      "Development of a fast inference system in TMVA, called SOFIE, that takes ONNX model as input and produces compilation-ready standalone C++ scripts as output.",
+      "Focuses on development of some missing deep learning operations which will allow to build more complex networks within TMVA and also to write the corresponding unit tests need to validate the written code."
+      ]
     }
   ]
 };
@@ -250,55 +308,41 @@ const achievementSection = {
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
-  achievementsCards: [
+    achievementsCards: [
+      {
+        title: "Google Summer of Code",
+        subtitle:
+          "Google Summer Of Code Open Source Contributer in 2022 and 2023 under CERN HSF.",
+        image: require("./assets/images/GsocLogo.png"),
+        imageAlt: "Google Code-In Logo",
+        footerLink: [
+          {
+            name: "Certification",
+            url: "https://drive.google.com/file/d/1AS-67Ko3jmojtqboztCdV8nW8qK5EXzF/view?usp=sharing"
+          },
+          {
+            name: "Project Information",
+            url: "https://summerofcode.withgoogle.com/archive/2022/projects/vEuHzl6G"
+          }
+        ]
+      },
     {
-      title: "Google Code-In Finalist",
+      title: "Summer@EPFL",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Conducted extensive research at Data science laboratory and Machine Learning for Education Laboratory.",
+      image: require("./assets/images/Summerepfl.jpeg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "ML4ED",
+          url: "https://www.epfl.ch/labs/ml4ed/"
+        },
+        {
+          name: "Dlab",
+          url: "https://dlab.epfl.ch/"
         }
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -309,19 +353,25 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://gist.github.com/Neel-Shah-29/b2c22b07025c72496fe3dbe1fb0b1cbb",
+      title: "GSOC 2023",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Describes my work under Google Summer Of Code 2023."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://gist.github.com/Neel-Shah-29/d41472a568f9e8430da0ca1249777bf6",
+      title: "How to run AIFlows library on your local server",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Making calls to Aiflows using Litellm on your server!."
+    },
+    {
+      url: "https://gist.github.com/Neel-Shah-29/ea1efde4dd5a51522f4aeb77b7e1fe12",
+      title: "GSOC 2022",
+      description:
+        "Describes my work under Google Summer Of Code 2022."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -337,10 +387,14 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Presentation at EPFL",
+      subtitle: "Major Slides about my research",
+      slides_url: "https://docs.google.com/presentation/d/1TQ0BpIJ07XvgSYjVnLrKgxYaxeBVcRRi/edit?usp=sharing&ouid=109497452191403493045&rtpof=true&sd=true",
+    },
+    {
+      title: "Presentation at CERN",
+      subtitle: "Major Slides about my contribution",
+      slides_url: "https://docs.google.com/presentation/d/1joPFbHil4pI5N9Azk1lfNMvFwNdJB6H95Ihhni1jGw0/edit?usp=sharing",
     }
   ],
   display: true // Set false to hide this section, defaults to true
