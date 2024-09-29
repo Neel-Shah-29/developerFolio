@@ -26,7 +26,7 @@ const greeting = {
     "A passionate AI/ML enthusiast 🧠 with a strong foundation in Python, NLP, and Deep Learning along with knowledge of Full Stack development using Angular, Reactjs, etc , driven by a love for building intelligent systems and pushing the boundaries of technology through innovative projects and research."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/16xPg_sS1sOqoZE2z-7dO2Lqk1_toAhyE/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1dwEMdyU0aGVcFMmzovXPsIYwOjIurir9/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -419,7 +419,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
